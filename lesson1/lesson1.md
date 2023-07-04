@@ -28,17 +28,20 @@ name = "Иван"
 print("Меня зовут", name)
 print("Мне", age, "лет")
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image2.jpg" >
 **Пример 2: Изменение значения переменной** </br>
 Значение переменной можно изменить, просто присвоив ей новое значение. 
+
 ```py
 # Изменение значения переменной
 count = 10
 print("Первоначальное значение count:", count)
-
 # Изменение значения переменной
 count = count + 1
 print("Новое значение count:", count)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image1.jpg" >
+
 **Пример 3: Работа с разными типами данных** </br>
 Python поддерживает разнообразные типы данных, которые позволяют вам работать с различными видами информации
 ```py
@@ -54,6 +57,8 @@ print("Возраст:", age)
 print("Рост:", height)
 print("Работник?", is_worker)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image3.jpg" >
+
 **Пример 4: Использование переменных в выражениях** </br>
 В Python вы можете использовать переменные в выражениях, что позволяет выполнять операции и вычисления с их участием.
 ```py
@@ -67,6 +72,8 @@ product = a * b
 print("Сумма чисел:", sum)
 print("Произведение чисел:", product)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image4.jpg" >
+
 Помните, что в Python нет необходимости объявлять тип переменной явно, так как тип определяется автоматически на основе значения, которое вы присваиваете переменной.</br>
 ### Операторы: Python предоставляет широкий спектр операторов для выполнения различных операций, включая арифметические, логические и сравнительные операторы.</br>
 **Пример 1. Арифметические операторы используются для выполнения математических операций над числами:**
@@ -106,6 +113,9 @@ print(j)
 k = - a
 print(k)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image5.jpg" >
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image6.jpg" >
+
 **Пример 2. Логические операторы используются для комбинирования условий и выполнения логических операций:**
 ```py
 x = True
@@ -123,27 +133,31 @@ print(result2)  # Вывод: True
 result3 = not x # НЕ (not): Инвертирует значение условия, если оно истинно, то возвращает False, а если ложно, то возвращает True.
 print(result3)  # Вывод: False
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image7.jpg" >
+
 **Пример 3. Сравнительные операторы используются для сравнения значений и возвращают логическое значение True или False.:**
 ```py
 p = 7
 q = 5
 
 # Равно
-result4 = p == q # Равно (==): Возвращает True, если значения двух операндов равны.
+result1 = p == q # Равно (==): Возвращает True, если значения двух операндов равны.
 print(result4)  # Вывод: False
 
 # Не равно
-result5 = p != q # Не равно (!=): Возвращает True, если значения двух операндов не равны.
+result2 = p != q # Не равно (!=): Возвращает True, если значения двух операндов не равны.
 print(result5)  # Вывод: True
 
 # Больше
-result6 = p > q # Больше (>)/Больше или равно (>=): Возвращает True, если значение левого операнда больше (или больше или равно) значения правого операнда.
+result3 = p > q # Больше (>)/Больше или равно (>=): Возвращает True, если значение левого операнда больше (или больше или равно) значения правого операнда.
 print(result6)  # Вывод: True
 
 # Меньше или равно
-result7 = p <= q # Меньше (<)/Меньше или равно (<=): Возвращает True, если значение левого операнда меньше (или меньше или равно) значения правого операнда.
+result3 = p <= q # Меньше (<)/Меньше или равно (<=): Возвращает True, если значение левого операнда меньше (или меньше или равно) значения правого операнда.
 print(result7)  # Вывод: False
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image8.jpg" >
+
 **Операторы** помогают вам выполнять различные операции с данными и контролировать ход выполнения программы. Изучение и эксперименты с ними позволят вам лучше понять их функциональность и использование в ваших собственных программных проектах.</br>
 ### Типы данных: Python поддерживает различные типы данных, включая числа, строки, списки, кортежи, словари и множества. Каждый тип данных имеет свои особенности и методы работы с ними.</br>
 **Пример 1. Числа (Numbers):** </br>
@@ -157,6 +171,8 @@ quantity = -10
 pi = 3.14159
 temperature = -12.5
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image9.jpg" >
+
 **Пример 2. Строки (Strings):** </br>
 Строки представляют последовательности символов и заключаются в одинарные или двойные кавычки. Они позволяют хранить и манипулировать текстовыми данными. Строки в Python являются неизменяемыми, то есть после создания их нельзя изменить.
 ```py
@@ -172,6 +188,8 @@ description = """
 Она может содержать несколько строк текста.
 """
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image10.jpg" >
+
 **Пример 3. Списки (Lists):** </br>
 Списки представляют собой упорядоченные коллекции элементов, которые могут быть различных типов данных. Они являются изменяемыми, то есть элементы в списке можно изменять, добавлять или удалять.
 ```py
@@ -191,6 +209,8 @@ numbers[1] = 10
 # Длина списка
 length = len(numbers)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image11.jpg" >
+
 **Пример 4. Словари (Dictionaries):** </br>
 Словари представляют собой неупорядоченные коллекции пар "ключ-значение". Ключи являются уникальными и используются для доступа к значениям. Словари являются изменяемыми.
 ```py
@@ -210,6 +230,8 @@ person["age"] = 26
 # Количество элементов в словаре
 count = len(person)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image12.jpg" >
+
 **Пример 5. Кортежи (Tuples):** </br>
 Кортежи похожи на списки, но они являются неизменяемыми, то есть элементы в кортеже нельзя изменять после создания. Они обычно используются для хранения неизменяемых наборов данных.
 ```py
@@ -223,6 +245,8 @@ print(coordinates[1])  # Выводит: 20
 # Кортежи являются неизменяемыми
 # coordinates[0] = 5  # Ошибка: Нельзя изменить значение элемента кортежа
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image13.jpg" >
+
 Это лишь некоторые примеры различных типов данных в Python. Каждый тип данных имеет свои особенности и функциональность, которые можно использовать в разработке программ.</br>
 ### Структуры управления: Чтобы управлять выполнением программы, Python предоставляет структуры управления, такие как условные операторы (if-else) и циклы (for и while). Они позволяют вам контролировать, какие части кода должны выполняться в зависимости от определенных условий.</br>
 **Пример 1. Условные операторы (if-else):** </br>
@@ -244,6 +268,8 @@ elif x < 0:
 else:
     print("Число равно нулю")
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image14.jpg" >
+
 **Пример 2. Циклы (for и while):** </br>
 Циклы позволяют вам выполнять определенный блок кода многократно. Они особенно полезны, когда вам нужно обрабатывать данные или повторять определенные операции несколько раз. В Python доступны два основных вида циклов: цикл for и цикл while.
 
@@ -261,6 +287,9 @@ while count < 5:
     print("Счетчик:", count)
     count += 1
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image17.jpg" >
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image15.jpg" >
+
 **Пример 3. Прерывание и пропуск итерации:** </br>
 Оператор break позволяет прервать выполнение цикла полностью, даже если условие для продолжения итерации остается истинным. При выполнении оператора break цикл немедленно завершается, и управление передается к следующей инструкции после цикла.
 Оператор continue позволяет пропустить оставшуюся часть текущей итерации цикла и перейти к следующей итерации. При выполнении оператора continue управление возвращается в начало цикла, и следующая итерация начинается сразу же.
@@ -277,6 +306,9 @@ for i in range(10):
         continue
     print(i)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image18.jpg" >
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image19.jpg" >
+
 **Пример 4. Вложенные структуры управления:** </br>
 В Python вы можете вкладывать условные операторы один в другой для создания более сложных логических проверок. Внутренний условный оператор будет выполняться только в том случае, если внешнее условие истинно.
 Вложенные циклы позволяют вам повторять операции внутри других циклов. Вы можете использовать вложенные циклы для обработки многомерных структур данных или для создания сложных алгоритмов, требующих итераций по нескольким наборам данных.
@@ -296,6 +328,9 @@ for i in range(3):
     for j in range(3):
         print(i, j)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image21.jpg" >
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson1/images/image22.jpg" >
+
 С помощью этих конструкций вы сможете контролировать выполнение программы и создавать более сложные алгоритмы. Не стесняйтесь экспериментировать с кодом и применять структуры управления в своих собственных проектах.</br>
 
 Изучение основ синтаксиса Python поможет вам понять, как работает язык и как создавать простые программы. После этого вы будете готовы перейти к более сложным концепциям и разработке приложений.</br>
