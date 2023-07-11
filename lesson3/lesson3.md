@@ -10,6 +10,8 @@
 
 Создайте новый файл с расширением `.py` (например, `my_module.py`) и определите в нем функции или переменные:
 
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson3/module0.png">
+
 ```python
 # my_module.py
 def greet(name):
@@ -31,6 +33,7 @@ my_module.greet("Анна")
 result = my_module.add_numbers(3, 5)
 print(result)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson3/module1.png">
 
 В этом примере модуль `my_module` импортируется с помощью ключевого слова `import`. Затем мы можем использовать функции `greet` и `add_numbers` из модуля.
 
