@@ -15,6 +15,7 @@ def greet():
 # Вызов функции
 greet()
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson2/func1.png">
 
 В этом примере определена функция `greet`, которая просто выводит сообщение "Привет!". После определения функции мы можем вызвать ее с помощью имени функции и круглых скобок.
 
@@ -31,6 +32,7 @@ def greet(name):
 # Вызов функции с аргументом
 greet("Анна")
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson2/func2.png">
 
 В этом примере функция `greet` принимает параметр `name`, который используется внутри функции. При вызове функции мы передаем аргумент "Анна", который заменит параметр `name` внутри функции.
 
@@ -48,6 +50,7 @@ def add_numbers(x, y):
 result = add_numbers(3, 5)
 print(result)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson2/func3.png">
 
 В этом примере функция `add_numbers` принимает два параметра `x` и `y` и возвращает их сумму. При вызове функции с аргументами 3 и 5, возвращаемое значение 8 сохраняется в переменной `result` и затем выводится на экран.
 
@@ -68,6 +71,7 @@ def factorial(n):
 result = factorial(5)
 print(result)
 ```
+<img src="https://github.com/ZodiackiIler/Python-Lessons-Basics-to-Advanced-Programming/blob/main/lesson2/func4.png">
 
 В этом примере функция `factorial` рекурсивно вызывает сама себя для вычисления факториала числа `n`. Рекурсия останавливается, когда `n` достигает 0, и функция возвращает 1. Затем рекурсивные вызовы раскручиваются, и факториал вычисляется. Результат 5! (факториал числа 5) выводится на экран.
 
